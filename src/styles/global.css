@@ -9,3 +9,7 @@ body{
     padding-top: 130px;
 }
 
+#exampleFormControlTextarea1{
+    width: 100%;
+    resize: none;
+}
