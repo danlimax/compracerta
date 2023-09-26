@@ -102,7 +102,7 @@
               Pesquisar
             </button>
           </form>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex align-items-center">
             <a class="text-dark" style="font-size: 1.3em" href="#"
               ><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a
             >
@@ -127,10 +127,10 @@
       class="d-flex justify-content-center container p-0 flex-column"
       style="height: 100vh"
     >
-      <div class="jumbotron jumbotron-fluid rounded">
+      <div class="jumbotron jumbotron-fluid shadow p-3 mb-5 bg-light rounded">
         <div class="container">
           <h1 class="text-center font-weight-bold">Fale conosco</h1>
-          <form class="d-flex flex-column">
+          <form class="d-flex flex-column border border-secondary p-4 rounded">
             <div class="form-group">
               <label for="exampleFormControlInput1">Nome</label>
               <input
@@ -208,7 +208,51 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <nav class="navbar navbar-light bg-dark">
+        <span class="text-white"
+          ><i class="fa fa-copyright text-white" aria-hidden="true"></i>
+          CompraCerta</span
+        >
+        <div class="navbar-nav justify-content-around">
+          <ul
+            class="navbar-nav text-center flex-row align-items-center mt-lg-0"
+          >
+            <li class="nav-item mr-2">
+              <a
+                class="nav-link font-weight-bold text-white"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item text-white mr-2">|</li>
+            <li class="nav-item text-white mr-2">
+              <a class="nav-link font-weight-bold text-white" href="#"
+                >Produtos</a
+              >
+            </li>
+            <li class="nav-item text-white mr-2">|</li>
+            <li class="nav-item">
+              <a
+                class="nav-link font-weight-bold text-white"
+                href="./contato.html"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+        <iframe
+          class="d-none d-lg-flex"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125325.97311438175!2d-37.1855572368676!3d-11.005828234495599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab04015be27cd%3A0x804434fd92ec3b36!2sAracaju%2C%20SE!5e0!3m2!1spt-BR!2sbr!4v1695598235304!5m2!1spt-BR!2sbr"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </nav>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
